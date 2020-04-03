@@ -15,7 +15,7 @@ public class PrimaryController {
     @FXML
     void showAboutDialog(ActionEvent event) throws IOException {
     	Stage dialogStage = new Stage();
-    	dialogStage.setTitle("hi");
+    	dialogStage.setTitle("Sagi");
     	Parent parent = App.loadFXML("about_dialog");
     	if (parent == null) {
     		Alert alert = new Alert(AlertType.ERROR, "FXML loading error.");
