@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="274.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="88.0" layoutY="80.0" text="Sagi" />
+            <Label layoutX="93.0" layoutY="119.0" text="Or Ashkenazi" />
+         </children>
+      </AnchorPane>
+   </children>
 </VBox>
-
